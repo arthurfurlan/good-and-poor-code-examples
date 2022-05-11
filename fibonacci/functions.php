@@ -13,7 +13,7 @@
  * /usr/share/common-licenses/GPL-2
  */
 
-define('FIBONACCI_COUNT', 30);
+define('FIBONACCI_COUNT', 50);
 
 // common version of fibonacci using simple recurrence
 function fibonacci_poor($n) {
