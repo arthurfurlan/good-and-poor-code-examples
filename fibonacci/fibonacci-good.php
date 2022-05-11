@@ -18,6 +18,6 @@ include 'functions.php';
 // print first elements of the fibonnaci's sequence
 echo "<pre>\n";
 for ($i=0; $i<FIBONACCI_COUNT; $i++)
-  print "${i}: " . fibonacci_good($i) . "<br />\n";
+  print "${i}: " . fibonacci_good($i) . "\n";
 echo "</pre>\n";
 ?>
