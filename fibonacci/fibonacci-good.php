@@ -17,10 +17,6 @@
 include 'functions.php';
 
 // print first elements of the fibonnaci's sequence
-ob_start();
-for ($i=0; $i<FIBONACCI_COUNT; $i++) {
+for ($i=0; $i<FIBONACCI_COUNT; $i++)
   print "${i}: " . fibonacci_good($i) . "\n";
-  ob_flush();
-  flush();
-}
 ?>
