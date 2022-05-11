@@ -1,6 +1,5 @@
-<pre>
 <a href="/fibonacci/">home</a><br/>
-</br>
+<pre>
 
 <?php
 /**
@@ -24,6 +23,7 @@ for ($i=0; $i<FIBONACCI_COUNT; $i++)
   print "${i}: " . fibonacci_good($i) . "\n";
 ?>
 
+</pre>
 <br />
 <small><em>
   source code available at
