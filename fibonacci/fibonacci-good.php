@@ -1,4 +1,4 @@
-<a href="/fibonacci/">home</a><br/>
+<a href="/fibonacci/">fibonacci "home"</a><br/>
 <pre>
 
 <?php
