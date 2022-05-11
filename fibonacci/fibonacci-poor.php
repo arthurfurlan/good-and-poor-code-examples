@@ -1,4 +1,7 @@
 <pre>
+<a href="/fibonacci/">home</a><br/>
+</br>
+
 <?php
 /**
  * vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4
@@ -20,3 +23,10 @@ include 'functions.php';
 for ($i=0; $i<FIBONACCI_COUNT; $i++)
   print "${i}: " . fibonacci_poor($i) . "\n";
 ?>
+
+<br />
+<small><em>
+  source code available at
+  <a href="https://github.com/arthurfurlan/good-and-poor-code-examples/blob/master/fibonacci/fibonacci-poor.php">
+    https://github.com/arthurfurlan/good-and-poor-code-examples/blob/master/fibonacci/fibonacci-poor.php</a>
+</em></small>
