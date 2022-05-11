@@ -21,5 +21,6 @@ ob_start();
 for ($i=0; $i<FIBONACCI_COUNT; $i++) {
   print "${i}: " . fibonacci_poor($i) . "\n";
   ob_flush();
+  flush();
 }
 ?>
