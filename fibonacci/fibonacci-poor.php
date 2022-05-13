@@ -1,5 +1,11 @@
 <a href="/fibonacci/">fibonacci "home"</a><br/>
 <pre>
+<b>// common version of fibonacci using simple recurrence
+function fibonacci_poor($n) {
+  if ($n == 0 OR $n == 1)
+    return $n;
+  return fibonacci_poor($n-1) + fibonacci_poor($n-2);
+}</b>
 
 <?php
 /**

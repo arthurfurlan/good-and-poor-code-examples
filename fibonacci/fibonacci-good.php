@@ -1,5 +1,15 @@
 <a href="/fibonacci/">fibonacci "home"</a><br/>
 <pre>
+<b>// better version of fibonacci using recurrence based on saved history
+$fibonacci_history = array(0 => 0, 1 => 1);
+function fibonacci_good($n) {
+  global $fibonacci_history;
+
+  if (!array_key_exists($n, $fibonacci_history))
+    $fibonacci_history[$n] = fibonacci_good($n-1) + fibonacci_good($n-2);
+
+  return $fibonacci_history[$n];
+}</b>
 
 <?php
 /**
